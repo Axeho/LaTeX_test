@@ -1,0 +1,96 @@
+\documentclass{article}
+\begin{document}
+
+{\flushleft \large \textsf{{\LARGE{2.2}} The Schr\"odinger Equation}}\\
+In 1926 and 1927, Schr\"odinger and Heisenberg published
+ papers on wave mechan\-ics, descriptions of the wwave properties of
+ electrons in atoms, that used very different mathematical techniques.
+ In spite of the different approaches, it was soon shown that their
+ theories were equivalent. Schr\"odinger's differential equations are
+ more commonly used to introduce the theory, and we will follow that
+ practice.\\
+\fussy The Schr\"odinger equation describes the wave properties of an
+ electron in terms of its position, mass, total energy, and potential
+ energy. The equation is based on the \textbf{wave function}, $\Psi$,
+ which describes an electron wave in space; in other words, it describes
+ an atomic orbital. In its simplest notation, the equation is
+\begin{displaymath}
+{H\Psi~=~E\Psi}
+\end{displaymath}
+\begin{eqnarray}
+H & = & Hamiltonian~operator    \\[6pt]
+E & = & energy~of~the~electron  \\[6pt]
+\Psi & = & wave~function
+\end{eqnarray}
+\fussy The \textbf{Hamiltonian operator}, frequently called simply the
+ \emph{Hamiltonian}, includes deriva\-tives that \textbf{operate} on the
+ wave function.\footnote{{An \emph{operator} is an instruction or set of
+ instructions that states what to do with the function that follows it.
+ It mmay be a simple instruction such as ‘‘multiply the following
+ function by 6,’’ or it may be much more complicated than the
+ Hamiltonian.}} When the Hamiltonian is carried out, the result is a
+ constant(the energy)times $\Psi$. The operation can be performed on any
+ wave function describing an atomic orbital. Different orbitals have
+ different wave functions and different values of \emph{E}. This is
+ another way of describing quantization in that each orbital,
+ characterized by its own function $\Psi$, has a characteristic energy.\\
+In the form used for calculating energy levels, the Hamiltonian operator
+ for one\-electron systems is
+\begin{displaymath}
+{H = \frac{-h^{2}}{8\pi^{2}m}
+\left(
+\frac{\partial^{2}}{{\partial}x^{2}}
+\frac{\partial^{2}}{{\partial}y^{2}}
+\frac{\partial^{2}}{{\partial}z^{2}}
+\right)}-\frac{Ze^{2}}{4\pi\varepsilon_{0}\sqrt{x^{2}+y^{2}+z^{2}}}
+\end{displaymath}
+\begin{center}
+\begin{tabular}{p{6cm} p{5cm}}
+This part of the operator describes the \emph{kinetic energy} of the
+ electron, its energy of motion. & This part of the operator describes
+ the \emph{potential energy} of the electron, the result of
+ electrostatic attraction between the electron and the nucleus.
+ It is commonly designated as \emph{V}.
+\end{tabular}
+\end{center}
+\newpage
+where\\
+\begin{tabular}{r @{=} l}
+$h$                            ~&~ Planck constant           \\
+$m$                            ~&~ mass of the electron      \\
+$e$                            ~&~ charge of the electron    \\
+$\sqrt{x^{2}+y^{2}+z^{2}}~=~r$ ~&~ distance from the nucleus \\
+$Z$                            ~&~ charge of the nucleus     \\
+$4\pi\varepsilon_{0}$          ~&~ permittivity of a vacuum  \\
+\end{tabular}\\[8pt]
+This operator can be applied to a wave function $\Psi$,
+\begin{displaymath}
+\left[
+\frac{-h^{2}}{8\pi^{2}m}
+\left(
+\frac{\partial^{2}}{{\partial}x^{2}}
+\frac{\partial^{2}}{{\partial}y^{2}}
+\frac{\partial^{2}}{{\partial}z^{2}}
+\right)
++V(x, y ,z)
+\right]
+\Psi(x, y, z) = E\Psi(x, y, z)5
+\end{displaymath}
+where
+\begin{displaymath}
+V~=~\frac{-Ze^{2}}{4\pi\varepsilon_{0}r}~=~
+\frac{-Ze^{2}}{4\pi\varepsilon_{0}\sqrt{x^{2}+y^{2}+z^{2}}}
+\end{displaymath}
+The potential energy $V$ is a result of electrostatic attraction between
+ the electron and the nucleus. Attractive forces, such as those between
+ a positivee nucleus and a negative electron, are defined by convention
+ to have a negative potential energy. An electron near the nucleus
+(small $r$) is strongly attracted to the nucleus and has a large
+ negative potential energy. Electrons farther from the nucleus have
+ potential energies that are small and negative. For an electron at
+ infinite distance from the nucleus ($r~=~\infty$), the attraction
+ between the nucleus and the electron is zero, and the potential energy
+ is zero. The hydrogen atom energy level diagram in Figure 2.2
+ illustrates these concepts.
+
+\end{document}
